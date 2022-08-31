@@ -17,6 +17,8 @@
 		4345C6CA28B721BD00353B59 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345C6C928B721BD00353B59 /* Home.swift */; };
 		43EAB8F428B9B4D10092BD25 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EAB8F328B9B4D10092BD25 /* Furniture.swift */; };
 		43EAB8F628BD4E180092BD25 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EAB8F528BD4E180092BD25 /* DetailView.swift */; };
+		43EAB8FA28BEF29E0092BD25 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EAB8F928BEF29E0092BD25 /* MotionManager.swift */; };
+		43EAB8FD28BEF5880092BD25 /* ParallaxMotionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EAB8FC28BEF5880092BD25 /* ParallaxMotionTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		4345C6C928B721BD00353B59 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		43EAB8F328B9B4D10092BD25 /* Furniture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Furniture.swift; sourceTree = "<group>"; };
 		43EAB8F528BD4E180092BD25 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		43EAB8F928BEF29E0092BD25 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		43EAB8FC28BEF5880092BD25 /* ParallaxMotionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxMotionTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		4345C68D28B6E8C300353B59 /* BasicSalesApplication */ = {
 			isa = PBXGroup;
 			children = (
+				43EAB8FB28BEF5750092BD25 /* Test */,
+				43EAB8F728BEF2860092BD25 /* Common */,
 				4345C69E28B6EB2700353B59 /* ViewModel */,
 				4345C69D28B6EB2100353B59 /* Model */,
 				4345C69C28B6EB1E00353B59 /* View */,
@@ -115,6 +121,30 @@
 				4345C6C128B7139500353B59 /* CustomTabBar.swift */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		43EAB8F728BEF2860092BD25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				43EAB8F828BEF28D0092BD25 /* Managers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		43EAB8F828BEF28D0092BD25 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				43EAB8F928BEF29E0092BD25 /* MotionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		43EAB8FB28BEF5750092BD25 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				43EAB8FC28BEF5880092BD25 /* ParallaxMotionTestView.swift */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +218,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4345C6C328B7139500353B59 /* CustomTabBar.swift in Sources */,
+				43EAB8FD28BEF5880092BD25 /* ParallaxMotionTestView.swift in Sources */,
 				43EAB8F628BD4E180092BD25 /* DetailView.swift in Sources */,
 				4345C6C828B7165900353B59 /* AppViewModel.swift in Sources */,
 				4345C68F28B6E8C300353B59 /* BasicSalesApplicationApp.swift in Sources */,
+				43EAB8FA28BEF29E0092BD25 /* MotionManager.swift in Sources */,
 				4345C6C628B715D800353B59 /* MainView.swift in Sources */,
 				4345C6C228B7139500353B59 /* BottomCurve.swift in Sources */,
 				43EAB8F428B9B4D10092BD25 /* Furniture.swift in Sources */,
