@@ -82,6 +82,7 @@ struct Home: View {
         .padding()
     }
     
+    // MARK: - CardView -
     @ViewBuilder
     func CardView(furniture: Furniture) -> some View {
         HStack(alignment: .top, spacing: 12) {
@@ -138,8 +139,6 @@ struct Home: View {
                     }
                 }
                 
-                
-                
                 Text(furniture.subtitle)
                     .font(.system(size: 14))
                     .foregroundColor(.black.opacity(0.8))
@@ -187,7 +186,7 @@ struct Home: View {
         .shadow(color: .black.opacity(0.1), radius: 5, x: 5, y: 5)
     }
     
-    
+    // MARK: - CustomMenu -
     @ViewBuilder
     func CustomMenu() -> some View {
         HStack(spacing: 6) {
@@ -216,6 +215,7 @@ struct Home: View {
     }
 }
 
+// MARK: - Previews -
 struct Home_Previews: PreviewProvider {
     static var previews: some View {
         MainView()

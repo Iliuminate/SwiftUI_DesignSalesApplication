@@ -67,7 +67,7 @@
 		4345C68D28B6E8C300353B59 /* BasicSalesApplication */ = {
 			isa = PBXGroup;
 			children = (
-				43EAB8FB28BEF5750092BD25 /* Test */,
+				43B4F0B62A4E5D4500A3E455 /* Mockups */,
 				43EAB8F728BEF2860092BD25 /* Common */,
 				4345C69E28B6EB2700353B59 /* ViewModel */,
 				4345C69D28B6EB2100353B59 /* Model */,
@@ -123,9 +123,17 @@
 			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
+		43B4F0B62A4E5D4500A3E455 /* Mockups */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mockups;
+			sourceTree = "<group>";
+		};
 		43EAB8F728BEF2860092BD25 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				43EAB8FB28BEF5750092BD25 /* Animations */,
 				43EAB8F828BEF28D0092BD25 /* Managers */,
 			);
 			path = Common;
@@ -139,12 +147,12 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		43EAB8FB28BEF5750092BD25 /* Test */ = {
+		43EAB8FB28BEF5750092BD25 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
 				43EAB8FC28BEF5880092BD25 /* ParallaxMotionTestView.swift */,
 			);
-			path = Test;
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
